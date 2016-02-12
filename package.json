@@ -1,0 +1,23 @@
+{
+	"name": "eslint-config-brjs",
+	"version": "0.0.0",
+	"description": "eslint-config for brjs",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint .",
+		"test": "eslint .",
+		"test:watch": "npm run test -- -w"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^1.10.3"
+	},
+	"peerDependencies": {
+		"eslint": "^1.10.3"
+	}
+}
